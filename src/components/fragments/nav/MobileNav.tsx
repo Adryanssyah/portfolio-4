@@ -10,8 +10,11 @@ function MobileNavigation() {
      const [open, setOpen] = useState(false);
      return (
           <div className="fixed top-0 left-0 w-full py-4 px-5 flex lg:hidden justify-between items-center z-50 bg-background">
-               <Link to="/">
-                    <img src="signature.png" alt="logo" className="invert w-10 h-auto" />
+               <Link to="/" className="block dark:hidden">
+                    <img src="signature-black.png" alt="logo black" className="w-8 h-auto" />
+               </Link>
+               <Link to="/" className="hidden dark:block">
+                    <img src="signature-white.png" alt="logo white" className="w-8 h-auto" />
                </Link>
                <div className="flex gap-1">
                     <ModeToggle variant="ghost" />
