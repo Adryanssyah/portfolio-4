@@ -1,7 +1,5 @@
 import { ModeToggle } from '@/components/mode-toggle';
-import { Button } from '@/components/ui/button';
-import { GanttChart, Home, Mail } from 'lucide-react';
-import { NavLink } from 'react-router-dom';
+import MenuList from './MenuList';
 
 function DesktopNavigation({ children }: { children: React.ReactNode }) {
      return <>{children}</>;
@@ -9,37 +7,20 @@ function DesktopNavigation({ children }: { children: React.ReactNode }) {
 
 function Left() {
      return (
-          <div className="w-full h-full col-span-1 hidden lg:flex flex-col justify-center items-start gap-5">
-               <NavLink to="/">
-                    {({ isActive }) => (
-                         <Button size={'sm'} variant={isActive ? 'secondary' : 'ghost'}>
-                              <Home className="w-4 h-4 mr-2" /> Home
-                         </Button>
-                    )}
-               </NavLink>
-               <NavLink to="/projects">
-                    {({ isActive }) => (
-                         <Button size={'sm'} variant={isActive ? 'secondary' : 'ghost'}>
-                              <GanttChart className="w-4 h-4 mr-2" /> Projects
-                         </Button>
-                    )}
-               </NavLink>
-
-               <NavLink to="/contact">
-                    {({ isActive }) => (
-                         <Button size={'sm'} variant={isActive ? 'secondary' : 'ghost'}>
-                              <Mail className="w-4 h-4 mr-2" /> Contacts
-                         </Button>
-                    )}
-               </NavLink>
+          <div className="relative col-span-1 hidden lg:block">
+               <div className="fixed h-full flex flex-col justify-center items-center gap-5">
+                    <MenuList isMobile={false} />
+               </div>
           </div>
      );
 }
 
 function Right() {
      return (
-          <div className="w-full h-full col-span-1 hidden lg:flex flex-col justify-center items-end ">
-               <ModeToggle />
+          <div className="relative h-full min-h-screen col-span-1 hidden lg:block">
+               <div className="fixed h-full  flex flex-col justify-center items-center">
+                    <ModeToggle />
+               </div>
           </div>
      );
 }
