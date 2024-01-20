@@ -35,6 +35,7 @@ export function ThemeProvider({ children, defaultTheme = 'system', storageKey = 
                return;
           }
 
+          root.style.colorScheme = theme;
           root.classList.add(theme);
      }, [theme]);
 
