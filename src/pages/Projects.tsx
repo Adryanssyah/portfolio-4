@@ -20,14 +20,14 @@ function ProjectsPage() {
                               <div className="flex items-center justify-end gap-1">
                                    {item.link.code && (
                                         <Button variant="link" className="p-1.5" asChild>
-                                             <a href={item.link.code} target="_blank">
+                                             <a href={item.link.code} target="_blank" aria-label="Github code">
                                                   <Github className="w-4 h-4" />
                                              </a>
                                         </Button>
                                    )}
                                    {item.link.live && (
                                         <Button variant="link" className="p-1.5" asChild>
-                                             <a href={item.link.live} target="_blank">
+                                             <a href={item.link.live} target="_blank" aria-label="Live preview">
                                                   <ArrowUpRight className="w-4 h-4" />
                                              </a>
                                         </Button>

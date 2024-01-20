@@ -19,7 +19,7 @@ function MobileNavigation() {
                                    <Menu className="w-4 h-4" />
                               </Button>
                          </SheetTrigger>
-                         <SheetContent side="left">
+                         <SheetContent side="right">
                               <div className="w-full h-full flex flex-col gap-5 items-center justify-center">
                                    <MenuList isMobile={true} />
                               </div>
