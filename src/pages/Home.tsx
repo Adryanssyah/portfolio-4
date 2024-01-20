@@ -2,9 +2,10 @@ import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Link } from 'react-router-dom';
+import OtherPageLayout from '@/components/layouts/OtherPageLayout';
 function HomePage() {
      return (
-          <div className="w-full h-full col-span-10 flex flex-col justify-center items-center lg:px-10">
+          <OtherPageLayout>
                <Badge variant="secondary" className="mb-6">
                     🟢 Available
                </Badge>
@@ -21,7 +22,7 @@ function HomePage() {
                          </Link>
                     </Button>
                </div>
-          </div>
+          </OtherPageLayout>
      );
 }
 

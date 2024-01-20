@@ -39,7 +39,7 @@ function ProjectsPage() {
                                    )}
                               </div>
                          </CardHeader>
-                         <CardDescription className="line-clamp-2" title={item.description}>
+                         <CardDescription className="lg:line-clamp-2" title={item.description}>
                               {item.description}
                          </CardDescription>
                          <CardFooter>

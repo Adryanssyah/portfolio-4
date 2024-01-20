@@ -17,8 +17,8 @@ function Left() {
 
 function Right() {
      return (
-          <div className="relative h-full min-h-screen col-span-1 hidden lg:block">
-               <div className="fixed h-full  flex flex-col justify-center items-center">
+          <div className="relative col-span-1 hidden lg:block">
+               <div className="fixed h-full flex flex-col justify-center items-center gap-5">
                     <ModeToggle />
                </div>
           </div>
