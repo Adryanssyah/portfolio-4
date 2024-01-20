@@ -6,6 +6,7 @@ import MobileNavigation from './components/fragments/nav/MobileNav';
 import DesktopNavigation from './components/fragments/nav/DesktopNav';
 import ProjectsPage from './pages/Projects';
 import ContactPage from './pages/Contact';
+import PageNotFound from './pages/404Page';
 
 function App() {
      return (
@@ -18,6 +19,7 @@ function App() {
                               <Route index path="/" element={<HomePage />} />
                               <Route path="/projects" element={<ProjectsPage />} />
                               <Route path="/contact" element={<ContactPage />} />
+                              <Route path="*" element={<PageNotFound />} />
                          </Routes>
                          <DesktopNavigation.Right />
                     </DesktopNavigation>
