@@ -39,7 +39,9 @@ function ProjectsPage() {
                                    )}
                               </div>
                          </CardHeader>
-                         <CardDescription>{item.description}</CardDescription>
+                         <CardDescription className="line-clamp-2" title={item.description}>
+                              {item.description}
+                         </CardDescription>
                          <CardFooter>
                               {item.tools.map((tool) => (
                                    <Badge key={tool} variant="outline">
