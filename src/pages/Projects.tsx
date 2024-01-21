@@ -12,7 +12,7 @@ function ProjectsPage() {
                     <Card key={item.id}>
                          <CardContent>
                               <div className="w-full aspect-video overflow-hidden rounded-lg bg-muted">
-                                   <img className="w-full" src={`images/${item.img}.webp`} alt={item.title} />
+                                   <img className="w-full h-full" src={`images/${item.img}.webp`} alt={item.title} />
                               </div>
                          </CardContent>
                          <CardHeader>
