@@ -7,7 +7,7 @@ function ContactPage() {
      return (
           <OtherPageLayout>
                <Badge variant="secondary" className="mb-6">
-                    🟢 Available
+                    🟢 Available to work
                </Badge>
                <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">Get in touch</h1>
                <div className="grid grid-cols-4 gap-4 py-5 place-items-center">

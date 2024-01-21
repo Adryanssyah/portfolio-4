@@ -7,7 +7,7 @@ function HomePage() {
      return (
           <OtherPageLayout>
                <Badge variant="secondary" className="mb-6">
-                    🟢 Available
+                    🟢 Available to work
                </Badge>
                <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">Hi, I'm Adryan</h1>
                <h2 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-center bg-gradient-to-br text-transparent bg-clip-text from-orange-600 to-yellow-400 ">Frontend Web Developer.</h2>
