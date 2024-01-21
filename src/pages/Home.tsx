@@ -10,7 +10,7 @@ function HomePage() {
                <Helmet>
                     <title>Adryan - Frontend Web Developer</title>
                     <meta name="description" content="As a Junior Front-End Developer, I wield an impressive array of skills in HTML, CSS, JavaScript, Vue, React, Tailwind." />
-                    <link rel="canonical" href="https://adryansyah.vercel.app" />
+                    <link rel="canonical" href={`${import.meta.env.VITE_BASE_URL}`} />
                </Helmet>
                <OtherPageLayout>
                     <Badge variant="secondary" className="mb-6">

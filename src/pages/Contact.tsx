@@ -10,7 +10,7 @@ function ContactPage() {
                <Helmet>
                     <title>Contact</title>
                     <meta name="description" content="Get in touch with me in social media or send me an email" />
-                    <link rel="canonical" href="https://adryansyah.vercel.app/contact" />
+                    <link rel="canonical" href={`${import.meta.env.VITE_BASE_URL}/contact`} />
                </Helmet>
                <OtherPageLayout>
                     <Badge variant="secondary" className="mb-6">

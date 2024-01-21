@@ -12,7 +12,7 @@ function ProjectsPage() {
                <Helmet>
                     <title>Projects</title>
                     <meta name="description" content="The projects I've worked on so far and what I've learned" />
-                    <link rel="canonical" href="https://adryansyah.vercel.app/projects" />
+                    <link rel="canonical" href={`${import.meta.env.VITE_BASE_URL}/projects`} />
                </Helmet>
                <ProjectPageLayout title="My Projects">
                     {projectList.map((item) => (
