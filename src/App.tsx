@@ -1,13 +1,15 @@
 import { Route, Routes } from 'react-router-dom';
 import { ThemeProvider } from './components/theme-provider';
-import HomePage from './pages/Home';
 import MainLayout from './components/layouts/MainLayout';
 import MobileNavigation from './components/fragments/nav/MobileNav';
 import DesktopNavigation from './components/fragments/nav/DesktopNav';
-import ProjectsPage from './pages/Projects';
-import ContactPage from './pages/Contact';
-import PageNotFound from './pages/404Page';
+import { lazy, Suspense } from 'react';
+import Loader from './components/fragments/Loader';
 
+const Home = lazy(() => import('./pages/Home'));
+const Projects = lazy(() => import('./pages/Projects'));
+const Contact = lazy(() => import('./pages/Contact'));
+const NotFound = lazy(() => import('./pages/404Page'));
 function App() {
      return (
           <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
@@ -15,12 +17,14 @@ function App() {
                <MainLayout>
                     <DesktopNavigation>
                          <DesktopNavigation.Left />
-                         <Routes>
-                              <Route index path="/" element={<HomePage />} />
-                              <Route path="/projects" element={<ProjectsPage />} />
-                              <Route path="/contact" element={<ContactPage />} />
-                              <Route path="*" element={<PageNotFound />} />
-                         </Routes>
+                         <Suspense fallback={<Loader />}>
+                              <Routes>
+                                   <Route index path="/" element={<Home />} />
+                                   <Route path="/projects" element={<Projects />} />
+                                   <Route path="/contact" element={<Contact />} />
+                                   <Route path="*" element={<NotFound />} />
+                              </Routes>
+                         </Suspense>
                          <DesktopNavigation.Right />
                     </DesktopNavigation>
                </MainLayout>
