@@ -5,7 +5,7 @@ function SocialIcon({ children, to = '', title = 'Social Media', blank = false }
           <TooltipProvider>
                <Tooltip>
                     <TooltipTrigger asChild>
-                         <a href={to} target={blank ? '_blank' : '_self'} className="p-3 bg-accent rounded cursor-pointer hover:bg-opacity-25">
+                         <a href={to} target={blank ? '_blank' : '_self'} className="p-3 bg-accent rounded cursor-pointer hover:bg-opacity-25" aria-label={`Goto my ${title}`}>
                               {children}
                          </a>
                     </TooltipTrigger>
