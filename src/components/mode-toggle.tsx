@@ -11,7 +11,7 @@ export function ModeToggle({ variant = 'secondary' }: any) {
      return (
           <DropdownMenu>
                <TooltipProvider>
-                    <Tooltip>
+                    <Tooltip delayDuration={0}>
                          <TooltipTrigger asChild>
                               <DropdownMenuTrigger asChild>
                                    <Button variant={variant} size="icon">
