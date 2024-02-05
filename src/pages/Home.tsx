@@ -16,7 +16,7 @@ function HomePage() {
                     <Badge variant="secondary" className="mb-6">
                          🟢 Available to work
                     </Badge>
-                    <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">Hi, I'm Adryan</h1>
+                    <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-center">Hi, I'm Adryan</h1>
                     <h2 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-center bg-gradient-to-br text-transparent bg-clip-text from-orange-600 to-yellow-400 ">Frontend Web Developer.</h2>
                     <p className="leading-7 [&:not(:first-child)]:mt-6 lg:w-1/2 text-center">As a Junior Front-End Developer, I wield an impressive array of skills in HTML, CSS, JavaScript, Vue, React, Tailwind.</p>
                     <div className="flex gap-4 py-6">
