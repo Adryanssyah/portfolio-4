@@ -8,15 +8,15 @@ function ContactPage() {
      return (
           <>
                <Helmet>
-                    <title>Contact</title>
+                    <title>Kontak</title>
                     <meta name="description" content="Get in touch with me in social media or send me an email" />
                     <link rel="canonical" href={`${import.meta.env.VITE_BASE_URL}/contact`} />
                </Helmet>
                <OtherPageLayout>
                     <Badge variant="secondary" className="mb-6">
-                         🟢 Available to work
+                         🟢 Tersedia untuk Bekerja
                     </Badge>
-                    <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">Get in touch</h1>
+                    <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">Hubungi Saya</h1>
                     <div className="grid grid-cols-4 gap-4 py-5 place-items-center">
                          <SocialIcon title="Mail" to="mailto:adryansyah434@gmail.com" blank={false}>
                               <Mail className="lg:w-6 lg:h-6 w-4 h-4" />

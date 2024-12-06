@@ -15,7 +15,7 @@ export default function MenuList({ isMobile = false, onClick = () => {} }: { isM
                <NavLink to="/projects" onClick={onClick}>
                     {({ isActive }) => (
                          <Button size={isMobile ? 'lg' : 'sm'} variant={isActive ? 'secondary' : 'ghost'}>
-                              <GanttChart className="w-4 h-4 mr-2" /> Projects
+                              <GanttChart className="w-4 h-4 mr-2" /> Projek
                          </Button>
                     )}
                </NavLink>
@@ -23,7 +23,7 @@ export default function MenuList({ isMobile = false, onClick = () => {} }: { isM
                <NavLink to="/contact" onClick={onClick}>
                     {({ isActive }) => (
                          <Button size={isMobile ? 'lg' : 'sm'} variant={isActive ? 'secondary' : 'ghost'}>
-                              <Mail className="w-4 h-4 mr-2" /> Contacts
+                              <Mail className="w-4 h-4 mr-2" /> Kontak
                          </Button>
                     )}
                </NavLink>

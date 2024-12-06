@@ -10,11 +10,11 @@ function ProjectsPage() {
      return (
           <>
                <Helmet>
-                    <title>Projects</title>
+                    <title>Projek</title>
                     <meta name="description" content="The projects I've worked on so far and what I've learned" />
                     <link rel="canonical" href={`${import.meta.env.VITE_BASE_URL}/projects`} />
                </Helmet>
-               <ProjectPageLayout title="My Projects">
+               <ProjectPageLayout title="Projek Saya">
                     {projectList.map((item) => (
                          <Card key={item.id}>
                               <CardContent>
@@ -41,7 +41,7 @@ function ProjectsPage() {
                                         )}
                                         {item.archived && (
                                              <Badge className="my-1.5" variant="secondary">
-                                                  Archived
+                                                  Diarsipkan
                                              </Badge>
                                         )}
                                    </div>

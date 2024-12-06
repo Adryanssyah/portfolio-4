@@ -16,12 +16,12 @@ export function ModeToggle({ variant = 'secondary' }: any) {
                               <DropdownMenuTrigger asChild>
                                    <Button variant={variant} size="icon">
                                         {theme === 'dark' ? <Moon className="h-4 w-4" /> : theme === 'light' ? <Sun className="h-4 w-4" /> : <Laptop2 className="h-4 w-4" />}
-                                        <span className="sr-only">Toggle theme</span>
+                                        <span className="sr-only">Pilih tema</span>
                                    </Button>
                               </DropdownMenuTrigger>
                          </TooltipTrigger>
                          <TooltipContent side="bottom">
-                              <p>Toggle theme</p>
+                              <p>Pilih tema</p>
                          </TooltipContent>
                     </Tooltip>
                </TooltipProvider>
@@ -29,15 +29,15 @@ export function ModeToggle({ variant = 'secondary' }: any) {
                <DropdownMenuContent align="end">
                     <DropdownMenuItem onClick={() => setTheme('light')}>
                          <Sun className="h-4 w-4 mr-2" />
-                         Light
+                         Terang
                     </DropdownMenuItem>
                     <DropdownMenuItem onClick={() => setTheme('dark')}>
                          <Moon className="h-4 w-4 mr-2" />
-                         Dark
+                         Gelap
                     </DropdownMenuItem>
                     <DropdownMenuItem onClick={() => setTheme('system')}>
                          <Laptop2 className="h-4 w-4 mr-2" />
-                         System
+                         Sistem
                     </DropdownMenuItem>
                </DropdownMenuContent>
           </DropdownMenu>

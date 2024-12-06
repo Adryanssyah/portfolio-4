@@ -12,7 +12,7 @@ export const projectList: Project[] = [
      {
           id: 10,
           title: 'HueEase',
-          description: 'Explore and create gradients with various color combinations for your Tailwind CSS and CSS code.',
+          description: 'Jelajahi dan buat gradasi dengan berbagai kombinasi warna untuk kode Tailwind CSS dan CSS-mu.',
           img: 'hueease',
           link: { live: 'https://hueease.vercel.app', code: 'https://github.com/Adryanssyah/HueEase' },
           tools: ['React', 'Tailwind'],
@@ -21,7 +21,7 @@ export const projectList: Project[] = [
      {
           id: 9,
           title: 'TryOutKu',
-          description: 'A collection of tryouts for university entrance exams, civil service exams, and civil servant recruitment.',
+          description: 'Kumpulan tryout untuk ujian masuk universitas, ujian CPNS, dan seleksi penerimaan ASN.',
           img: 'tryout',
           link: { live: '', code: '' },
           tools: ['Vue', 'Tailwind'],
@@ -30,7 +30,7 @@ export const projectList: Project[] = [
      {
           id: 8,
           title: 'Skedumate',
-          description: 'Collaborating to organize schedules for entire groups across multiple classes or cohorts.',
+          description: 'Berkolaborasi untuk mengatur jadwal kelompok di berbagai kelas atau angkatan.',
           img: 'skedumate',
           link: { live: 'https://skedumate.vercel.app', code: '' },
           tools: ['Vue', 'Tailwind', 'Express', 'MongoDB'],
@@ -38,8 +38,8 @@ export const projectList: Project[] = [
      },
      {
           id: 7,
-          title: 'Team Project Portfolio',
-          description: 'My portfolio during the university period, worked on collaboratively with a team.',
+          title: 'Pertofolio Proyek Kuliah',
+          description: 'Portofolio saya selama masa kuliah, dikerjakan secara kolaboratif dengan tim.',
           img: 'team-project',
           link: { live: 'https://bit.ly/project-kami', code: 'https://github.com/Adryanssyah/team-project' },
           tools: ['Vue', 'Tailwind'],
@@ -48,7 +48,7 @@ export const projectList: Project[] = [
      {
           id: 6,
           title: 'Match Generator',
-          description: 'Discover team combinations in 1v1 or 2v2 for all games you play.',
+          description: 'Temukan kombinasi tim dalam mode 1v1 atau 2v2 untuk semua game yang Anda mainkan.',
           img: 'match-generator',
           link: { live: 'https://bit.ly/Match-Generator', code: 'https://github.com/Adryanssyah/match-generator' },
           tools: ['Vue', 'Tailwind'],
@@ -57,7 +57,7 @@ export const projectList: Project[] = [
      {
           id: 5,
           title: 'SIBAMIRA',
-          description: 'State-owned inventory application at the University of Jambi.',
+          description: 'Aplikasi inventarisasi Barang Milik Negara di Universitas Jambi.',
           img: 'sibamira',
           link: { live: 'https://sibamira.unja.ac.id', code: '' },
           tools: ['Bootstrap', 'jQuery'],
@@ -66,7 +66,7 @@ export const projectList: Project[] = [
      {
           id: 4,
           title: 'Positiv Landing Page',
-          description: 'Landing page for visitors to the statistical corner of the Central Statistics Agency of Jambi Province.',
+          description: 'Landing page untuk pengunjung pojok statistik di Badan Pusat Statistik Provinsi Jambi.',
           img: 'positiv-landing',
           link: { live: 'https://bpsjambi.id/positiv_jambi/public', code: '' },
           tools: ['HTML', 'CSS'],
@@ -75,7 +75,7 @@ export const projectList: Project[] = [
      {
           id: 3,
           title: 'SiPHP',
-          description: 'Daily employee reporting application at the Central Statistics Agency of Jambi Province.',
+          description: 'Aplikasi pelaporan harian pegawai di Badan Pusat Statistik Provinsi Jambi.',
           img: 'siphp',
           link: { live: 'https://bpsjambi.id/siphp', code: '' },
           tools: ['Bootstrap', 'jQuery'],
@@ -84,7 +84,7 @@ export const projectList: Project[] = [
      {
           id: 2,
           title: 'SIPBetul',
-          description: 'News management application at the Central Statistics Agency of Jambi Province.',
+          description: 'Aplikasi pengelolaan berita di Badan Pusat Statistik Provinsi Jambi.',
           img: 'sipbetul',
           link: { live: '', code: '' },
           tools: ['Bootstrap', 'jQuery'],
@@ -93,7 +93,7 @@ export const projectList: Project[] = [
      {
           id: 1,
           title: 'BPS Landing Page',
-          description: 'Portal of web applications existing at the Central Statistics Agency of Jambi Province.',
+          description: 'Portal aplikasi web yang ada di Badan Pusat Statistik Provinsi Jambi.',
           img: 'bps-landing',
           link: { live: 'https://bpsjambi.id/home', code: '' },
           tools: ['Bootstrap'],

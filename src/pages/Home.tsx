@@ -14,18 +14,18 @@ function HomePage() {
                </Helmet>
                <OtherPageLayout>
                     <Badge variant="secondary" className="mb-6">
-                         🟢 Available to work
+                         🟢 Tersedia untuk Bekerja
                     </Badge>
-                    <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-center">Hi, I'm Adryan</h1>
+                    <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-center">Hi, Saya Adryan</h1>
                     <h2 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-center bg-gradient-to-br text-transparent bg-clip-text from-orange-600 to-yellow-400 ">Frontend Web Developer.</h2>
-                    <p className="leading-7 [&:not(:first-child)]:mt-6 lg:w-1/2 text-center">As a Junior Front-End Developer, I wield an impressive array of skills in HTML, CSS, JavaScript, Vue, React, Tailwind.</p>
+                    <p className="leading-7 [&:not(:first-child)]:mt-6 lg:w-1/2 text-center">Sebagai Junior Front-End Developer, saya memiliki keahlian yang mumpuni dalam HTML, CSS, JavaScript, Vue, React, dan Tailwind.</p>
                     <div className="flex gap-4 py-6">
                          <Button variant={'secondary'} asChild>
-                              <Link to={'/projects'}>Projects</Link>
+                              <Link to={'/projects'}>Projek Saya</Link>
                          </Button>
                          <Button asChild>
                               <Link to={'/contact'}>
-                                   Contact Me <ArrowRight className="h-5 w-5 ml-2" />
+                                   Kontak Saya <ArrowRight className="h-5 w-5 ml-2" />
                               </Link>
                          </Button>
                     </div>
